@@ -42,7 +42,8 @@ for (let i=1; i<= 100; i++){
     
 }
 // chiusura stringa
-
+list += `</ul>`
+console.log('list end', list)
 
 // 4.generazione output
 
