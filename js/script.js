@@ -7,8 +7,6 @@ console.log('JS OK');
 3.apro e modello il ciclo for
 4.chiudo stringa
 5.stampo in console
-
-
 */
 
 // 1.recupero l'elemento dal Dom
