@@ -16,7 +16,8 @@ const target = document.getElementById('target');
 console.log('target on index', target);
 
 //2.raccolta dati
-
+let list = 'ul';
+console.log('list start', list);
     
 // 3.lavorazione dati
 
