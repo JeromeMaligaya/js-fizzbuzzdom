@@ -22,14 +22,14 @@ console.log('list start', list);
 // 3.lavorazione dati
 for (let i=1; i<= 100; i++){
     if (i % 3 === 0 && i % 5 === 0){
-        console.log(`${i} questo numero è multiplo di 3 e di 5`)
-        }else if(i % 3 === 0){
-            console.log(`${i} questo numero è multiplo di 3`)
-        }else if(i % 5 === 0){
-            console.log(`${i} questo numero è multiplo di 5`)
-        }else{
-            console.log(`${i}`)
-        }
+    console.log('Buzz')
+    }else if(i % 3 === 0){
+        console.log('Fizz')
+    }else if(i % 5 === 0){
+        console.log(`Buzz`)
+    }else{
+        console.log(`${i}`)
+    }
     
 }
 
