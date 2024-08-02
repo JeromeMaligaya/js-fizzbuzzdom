@@ -8,6 +8,10 @@ body{
     background-color: #193C4A;
 }
 
+h1{
+    font-size: 75px;
+}
+
 ul{
     list-style-type: none;
     display: flex;
