@@ -33,7 +33,7 @@ for (let i=1; i<= 100; i++){
     // se multipli di 5
     }else if(i % 5 === 0){
         console.log(`Buzz`)
-        list += `<li class="Buzz">Buzz</li>`
+        list += `<li class="buzz">Buzz</li>`
     // valore non multiplicabile
     }else{
         console.log(`${i}`)
@@ -43,7 +43,7 @@ for (let i=1; i<= 100; i++){
 }
 // chiusura stringa
 list += `</ul>`
-console.log('list end', list)
+console.log('list end', list);
 
 // 4.generazione output
 target.innerHTML = list;

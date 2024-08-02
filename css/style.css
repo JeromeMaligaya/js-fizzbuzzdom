@@ -1,8 +1,45 @@
+/* css reset */
+*{
+    box-sizing: border-box;
+}
 /*generics*/
 body{
     font-family: sans-serif;
+    background-color: #193C4A;
 }
 
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px
+  
+}
+
+li {
+    flex-basis: calc(100% / 7 - (240px / 7));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+
+}
+
+.fizzbuzz{
+    background-color: #E45870;
+}
+
+.fizz{
+    background-color: #48CEA3;
+}
+
+.buzz{
+    background-color: #FCCF7C;
+}
+
+.i-js{
+    background-color: #2F85A8;
+}
 /*layout*/
 
 /*color*/
