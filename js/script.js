@@ -46,4 +46,4 @@ list += `</ul>`
 console.log('list end', list)
 
 // 4.generazione output
-
+target.innerHTML = list;
